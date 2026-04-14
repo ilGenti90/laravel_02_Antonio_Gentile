@@ -7,7 +7,7 @@ use App\Http\Controllers\CardgamesController;
 
 Route::get('/', [PublicController::class, 'homepage'])->name('homepage');
 
-Route::get('/chi-siamo', [CardgamesController::class, 'chiSiamo'])->name('ChiSiamo');
+Route::get('/indice', [CardgamesController::class, 'indice'])->name('Indice');
 
 Route::get('/servizi', [PublicController::class, 'servizi'])->name('Servizi');
 

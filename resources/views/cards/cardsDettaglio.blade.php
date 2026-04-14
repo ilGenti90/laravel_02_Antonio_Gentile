@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link " aria-current="page" href="{{ route('homepage') }}">Home</a>
-        <a class="nav-link" href="{{ route('ChiSiamo') }}">Chi Siamo</a>
+        <a class="nav-link" href="{{ route('Indice') }}">Indice</a>
         <a class="nav-link" href="{{ route('Servizi') }}">Servizi</a>
         
       </div>
@@ -49,7 +49,7 @@
         <p>{{ $game['description'] }}</p>
         <h2> Categoria :</h2>
         <p>{{ $game['category'] }}</p> 
-        <a href="{{ route('ChiSiamo') }}" class="btn btn-success mt-5">Back</a>
+        <a href="{{ route('Indice') }}" class="btn btn-success mt-5">Back</a>
         </div>
        
          

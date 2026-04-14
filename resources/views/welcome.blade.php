@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link " aria-current="page" href="{{ route('homepage') }}">Home</a>
-        <a class="nav-link" href="{{ route('ChiSiamo') }}">Chi Siamo</a>
+        <a class="nav-link" href="{{ route('Indice') }}">Indice</a>
         <a class="nav-link" href="{{ route('Servizi') }}">Servizi</a>
         
       </div>

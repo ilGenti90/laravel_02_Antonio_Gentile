@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CardgamesController extends Controller
 {
-    public function chiSiamo()
+    public function indice()
     {
         $arrayGames = [
             [
@@ -71,7 +71,7 @@ class CardgamesController extends Controller
             ],
 
         ];
-        return view('chiSiamo',['gamesBlog' => $arrayGames]);
+        return view('indice',['gamesBlog' => $arrayGames]);
     }
 
     public function dettaglio($title)
