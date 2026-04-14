@@ -49,7 +49,7 @@
         <p>{{ $game['description'] }}</p>
         <h2> Categoria :</h2>
         <p>{{ $game['category'] }}</p> 
-        <a href="{{ route('ChiSiamo') }}" class="btn btn-success">Back</a>
+        <a href="{{ route('ChiSiamo') }}" class="btn btn-success mt-5">Back</a>
         </div>
        
          
